@@ -5,7 +5,7 @@ latediv.style.display = "none";
 function timeOut() {
 	setTimeout(function () {
 		latediv.style.display = "inline";
-	}, /* in ms = */ 120000);
+	}, /* in ms = */ 240000);
 }
 
 timeOut();

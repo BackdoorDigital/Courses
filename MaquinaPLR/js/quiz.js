@@ -8,11 +8,11 @@ function changeQuestion() {
 
 	if (countQuestion === 1){
 		questionText.innerHTML  = 
-			"Você gostaria de aprender um <b>método secreto</b> que permitisse que você criasse <b>seu primeiro Jogo em apenas 14 dias</b>?";
+			"Você gostaria de aprender um <b>método secreto</b> que permitisse que você <b>Lucrasse bem no Digital</b>?";
 	}
 	else if (countQuestion === 2){
 		questionText.innerHTML  = 
-			" No vídeo a seguir, <b>eu vou te revelar esse método secreto</b>, mas só irei compartilhar com algumas pessoas... <b>Você pretende assistir até o fim?</b>";
+			" No vídeo a seguir, <b>eu vou te revelar esse método secreto</b>, mas só irei compartilhar com algumas pessoas...<br><br><b>Você pretende assistir até o fim?</b>";
 	}
 	else {
 		const utmParamQueryString = new URLSearchParams(window.location.search);			
